@@ -5,18 +5,7 @@ import { useEffect, useState } from "react";
 import obile(window.innerWidth < 768);
     };
     checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
-
-  return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <ThemeProvider defaultTheme="system" storageKey="readme-design-kit-theme">
-          <HistoryProvider>
-            {!isMobile && <Cursortrail />}
-            <BrowserRouter>
-              <ScrollRestoration />
+    windoScrollRestoration />
               <Routes>
 
                 <Route path="/" element={<Layout><Home /></Layout>} />
