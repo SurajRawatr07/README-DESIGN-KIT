@@ -3,11 +3,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
     return [...existingElements, ...clonedTemplateElements];
   }
 
-  /**
-   * Replace all elements with template elements
-   *mplateElements: ElementType[], 
-    position: number
-  ): ElementType[] {
+  /ementType[] {
     const clonedTemplateElements = this.refreshElementIds(templateElements);
     const result = [...existingElements];
     result.splice(position, 0, ...clonedTemplateElements);
