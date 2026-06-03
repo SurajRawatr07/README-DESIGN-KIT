@@ -5,11 +5,7 @@ export class TemplateUtils {
   /**
 ${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
-
-  /**
-   * Update element IDs in a template to ensure uniqueness
-   */
-  static refreshElementIds(elements: ElementType[]): ElementType[] {
+refreshElementIds(elements: ElementType[]): ElementType[] {
     return elements.map(element => ({
       ...element,
       id: this.generateElementId(element.type),
