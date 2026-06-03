@@ -2,10 +2,7 @@ import { useEffect, useRef } from "react";
 
 const DOT_COUNT = 8;
 
-function Cursortrail() {
-  const dotRefs = useRef<HTMLSpanElement[]>([]);
-  const mouseX = useRef(0);
-  const mouseY = useRef(0);
+functmouseY = useRef(0);
 
   useEffect(() => {
     const history = Array.from({ length: DOT_COUNT }, () => ({ x: 0, y: 0 }));
