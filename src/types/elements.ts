@@ -6,15 +6,7 @@ export interface BaseElement {
   type: string;
   content?: string;
   style?: Record<string, string | number>;
-  hiddenFor?: ViewMode[]; // persona filtering
-}
-
-/* ===================== TEXT ELEMENTS ===================== */
-
-export interface TextElement extends BaseElement {
-  type: 'text';
-  content: string;
-  style: {
+  hiddenFor?: View
     fontSize: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl';
     fontWeight: 'normal' | 'bold' | 'semibold';
     textAlign: 'left' | 'center' | 'right';
