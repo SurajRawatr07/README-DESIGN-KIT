@@ -4,10 +4,7 @@ import diff from 'microdiff';
 export type Patch = ReturnType<typeof diff>;
 
 /**
- * Applies a patch to a state to produce a new state.
- * This is a simplified patch applicator for microdiff.
- */
-export function  JSON.parse(JSON.stringify(state));
+ * Applies a pSON.parse(JSON.stringify(state));
 
   patch.forEach((change) => {
     const path = change.path;
