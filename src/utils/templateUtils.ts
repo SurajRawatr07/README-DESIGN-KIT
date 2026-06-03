@@ -6,12 +6,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
   /**
    * Replace all elements with template elements
    */
-  static replaceElements(templateElements: ElementType[]): ElementType[] {
-    return this.refreshElementIds(templateElements);
-  }
-
-  /**
-   * Insert template elements at specific position
+  staticmplate elements at specific position
    */
   static insertElementsAt(
     existingElements: ElementType[], 
