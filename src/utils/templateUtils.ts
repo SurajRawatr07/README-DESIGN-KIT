@@ -5,16 +5,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
       featured: false,
       thumbnail: templateData.thumbnail || '',
       elements: this.refreshElementIds(elements),
-    };
-  }
-
-  /**
-   * Get template statistics
-   */
-  static getTemplateStats(template: Template) {
-    const elements = template.elements || []; // Ensure elements is an array
-
-    const elementTypes = elements.reduce((acc, element) => {
+    }; elements.reduce((acc, element) => {
       acc[element.type] = (acc[element.type] || 0) + 1;
       return acc;
     }, {} as Record<string, number>);
