@@ -5,18 +5,7 @@ import { useEffect, useState } from "react";
 import obile(window.innerWidth < 768);
     };
     checkMobile();privacy" element={<Layout><PrivacyPolicy /></Layout>} />
-                <Route path="/terms" element={<Layout><TermsOfService /></Layout>} />
-                <Route path="/readme-generator" element={<Layout><ReadmeGenerator /></Layout>} />
-                <Route path="/readme-editor" element={<ReadmeEditor />} />
-                <Route path="/markdown-editor" element={<Layout><MarkdownEditor /></Layout>} />
-                <Route path="/ai-editor-intro" element={<Layout><AIEditorIntro /></Layout>} />
-                <Route path="*" element={<Layout><NotFound /></Layout>} />
-              </Routes>
-            </BrowserRouter>
-            <Toaster richColors />
-          </HistoryProvider>
-        </ThemeProvider>
-      </TooltipProvider>
+                <>
     </QueryClientProvider>
   );
 };
