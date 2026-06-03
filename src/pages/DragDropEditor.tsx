@@ -8,12 +8,7 @@ impoLwnMenuTrigger,
 
 import { ElementDialog } from '@/components/ReadmeQualityDialog';
 import ScrollToTop from '@/components/ScrollToTop';
-import { useIsments } from '@/data/demo';
-import { TemplateUtils } from '@/utils/templateUtils';
-import { analyzeReadmeQuality, type ReadmeQualityResult } from '@/utils/readmeQualityAnalyzer';
-import type { ElementType, GitContributionElement } from '@/types/elements';
-import type { Template } from '@/types/templates';
-import type { ReadmeExportPreset } from '@/config/readmeExportPresets';
+import { useIseExportPreset } from '@/config/readmeExportPresets';
 import { toast } from 'sonner';
 
 export default function DragDropEditor() {
