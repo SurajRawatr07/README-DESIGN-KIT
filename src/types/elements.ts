@@ -4,15 +4,7 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: s
 
-
-/* == ElementType =
-  | TextElement
-  | TitleElement
-  | DescriptionElement
-  | HeaderElement
-  | BannerElement
-  | GitContributionElement
-  | TechStackElement
+lement
   | ImageElement
   | CodeBlockElement
   | TableElement
