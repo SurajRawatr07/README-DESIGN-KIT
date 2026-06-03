@@ -1,10 +1,7 @@
 /**
  * Utility to parse directory structures and add icons
  */
-const FILE_ICONS: Record<string, string> = {
-  // Languages
-  'ts': '📄',
-  'tsx': '⚛️',
+const '⚛️',
   'js': '📜',
   'jsx': '⚛️',
   'json': '📦',
