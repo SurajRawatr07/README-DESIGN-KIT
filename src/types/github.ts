@@ -7,8 +7,5 @@ export interface GitHubFile {
 
 // Source reference for AI responses
 export interface Source {
-  uri: string;
-  title?: string;
-}
 
 // 
