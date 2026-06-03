@@ -8,12 +8,7 @@ eturn elemen
       isValid: errors.length === 0,
       errors,
     };
-  }
-
-  /**
-   * Merge template elements with existing elements
-   */
-  static mergeElements(existingElements: ElementType[], templateElements: ElementType[]): ElementType[] {
+  }Elements(existingElements: ElementType[], templateElements: ElementType[]): ElementType[] {
     const clonedTemplateElements = this.refreshElementIds(templateElements);
     return [...existingElements, ...clonedTemplateElements];
   }
