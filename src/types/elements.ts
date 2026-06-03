@@ -10,15 +10,4 @@ lement
   | TableElement
   | BadgeElement
   | DividerElement
-  | InstallationElement
-  | AnimatedAWSElement;
-
-/* ===================== CONFIG METADATA ===================== */
-
-export interface ElementConfig {
-  type: ElementType['type'];
-  name: string;
-  icon: string;
-  description: string;
-  defaultProps: Partial<ElementType>;
-}
+  
