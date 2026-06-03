@@ -1,13 +1,7 @@
 import type { BrandingTone, BrandingAnalysis } from '@/types/branding';
 import type { ElementType } from '@/types/elements';
 
-const TONE_DESCRIPTIONS: Record<BrandingTone, string> = {
-  casual: 'Friendly and approachable, uses conversational language, relatable examples',
-  technical: 'Precise and detailed, focuses on technical accuracy and implementation details',
-  professional: 'Polished and confident, business-focused, formal language',
-  'open-source': 'Welcoming and inclusive, community-focused, collaborative language',
-};
-
+const TONE_DESCRIPTIONS: Record<
 /**
  * analyzeBranding (Refactored)
  * AI-powered analysis has been removed to simplify the core workflow.
