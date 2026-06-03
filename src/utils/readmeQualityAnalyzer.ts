@@ -71,6 +71,7 @@ export function analyzeReadmeQuality(
     suggestions.push('Consider adding more structured sections');
   }
 
+  
   return {
     score: Math.min(score, 100),
     strengths,
