@@ -6,16 +6,7 @@ impoLwnMenuTrigger,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-  hubUsername, setGithubUsername] = useState<string>('your-username');
-  const [showGithubUsernameInput, setShowGithubUsernameInput] = useState(false);
-
-
-  const [exportPreset, setExportPreset] = useState<ReadmeExportPreset>('default');
-  const [isTablet, setIsTablet] = useState(false);
-  const [qualityResult, setQualityResult] = useState<ReadmeQualityResult | null>(null);
-  const [showQualityDialog, setShowQualityDialog] = useState(false);
-
-  const isMobile = useIsMobile();
+  huMobile = useIsMobile();
   const location = useLocation();
 
 
