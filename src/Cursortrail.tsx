@@ -5,10 +5,6 @@ const DOT_COUNT = 8;
 
 
     return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-      cancelAnimationFrame(animationFrameId);
-    };
-  }, []);
 
   return (
     <div className="cursor-container">
