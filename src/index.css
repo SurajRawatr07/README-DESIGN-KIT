@@ -3,17 +3,7 @@
 @plugin-accent-foreground: oklch(0.95 0.002 286.38);
   --sidebar-border: oklch(0.25 0.005 286.32);
   --sidebar-ring: oklch(0.541 0.281 293.009);
-}
-
-/* GitHuboreground: 210 40% 65%;
-  --border: 212 32% 21%;
-  --card: 212 32% 9%;
-  --card-foreground: 210 40% 93%;
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-}
-
-.github-dimmed {
+}ed {
   --background: 213 16% 16%;
   --foreground: 210 17% 82%;
   --muted: 213 16% 20%;
