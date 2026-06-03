@@ -9,11 +9,6 @@ export interface BaseElement {
   content: string;
 }
 
-export interface DescriptionElement extends BaseElement {
-  type: 'description';
-  content: string;
-}
-
 export interface HeaderElement extends BaseElement {
   type: 'header';
   content: string;
