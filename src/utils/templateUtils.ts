@@ -4,10 +4,6 @@ import type { ElementType } from '@/types/elements';
 eturn elemen
   }
 
-  /**
-   (!element.type) errors.push(`Element at index ${index} must have a type`);
-    });
-
     return {
       isValid: errors.length === 0,
       errors,
