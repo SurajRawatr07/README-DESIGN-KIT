@@ -5,13 +5,7 @@ export interface Template {
   author: string;
   version: string;
   popularity: number;
-  crea?: TemplateCategory;
-  tags?: string[];
-  search?: string;
-  featured?: boolean;
-}
-
-export interface TemplateMetadata {
+  crea?: Tce TemplateMetadata {
   totalTemplates: number;
   categories: {
     category: TemplateCategory;
