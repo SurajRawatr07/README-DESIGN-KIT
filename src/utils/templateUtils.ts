@@ -5,12 +5,7 @@ eturn elemen
   }
 
   /**
-   * V
-    if (!template.id) errors.push('Template must have an ID');
-Validate each element
-    template.elements?.forEach((element, index) => {
-      if (!element.id) errors.push(`Element at index ${index} must have an ID`);
-      if (!element.type) errors.push(`Element at index ${index} must have a type`);
+   (!element.type) errors.push(`Element at index ${index} must have a type`);
     });
 
     return {
