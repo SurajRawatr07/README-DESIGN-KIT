@@ -1,13 +1,6 @@
 /**
  * Utility to parse directory structures and add icons
- */
-const '⚛️',
-  'js': '📜',
-  'jsx': '⚛️',
-  'json': '📦',
-  'css': '🎨',
-  'scss': '🎨',
-  'html': '📄',
+ : '📄',
   'md': '📝',
   'py': '🐍',
   'go': '🐹',
