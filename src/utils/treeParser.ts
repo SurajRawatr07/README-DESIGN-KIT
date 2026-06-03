@@ -4,12 +4,7 @@
   'md': '📝',
   'py': '🐍',
   'go': '⚙️',
-  'yaml': '⚙️
-const FOLDER_ICONS: Record<string, string> = {
-  'src': '📂',
-  'public': '📂',
-  'assets': '📂',
-  'components': '📂',
+  'yonents': '📂',
   'pages': '📂',
   'app': '📂',
   'api': '📂',
