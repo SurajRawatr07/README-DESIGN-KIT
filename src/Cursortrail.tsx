@@ -6,14 +6,7 @@ functmouseY = useRef(0);
 nst 
 
       dotRefs.current.forEach((dot, index) => {
-        if (!dot) return;
-
-        const target = history[index];
-        const current = positions[index];
-
-        
-        current.x += (target.x - current.x) * 0.18;
-        current.y += (target.y - current.y) * 0.18;
+        if (!dot) return; - current.y) * 0.18;
 
         dot.style.left = `${current.x}px`;
         dot.style.top = `${current.y}px`;
