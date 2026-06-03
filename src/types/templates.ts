@@ -6,8 +6,7 @@ export interface Template {
   version: string;
   popularity: number;
   created: Date;
-  updated: Date;
-  featured: boolean;
+  updured: boolean;
 }imal'
   | 'professional'
   | 'personal-projects'
