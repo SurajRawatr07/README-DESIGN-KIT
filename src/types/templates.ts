@@ -5,11 +5,7 @@ export interface Template {
   author: string;
   version: string;
   popularity: number;
-  created: Date;
-  updured: boolean;
-}imal'
-  'other'emplateFilter {
-  category?: TemplateCategory;
+  crea?: TemplateCategory;
   tags?: string[];
   search?: string;
   featured?: boolean;
