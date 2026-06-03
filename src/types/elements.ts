@@ -6,10 +6,7 @@ export interface BaseElement {
   type: string;
   content?: string;
   style?: Record<string, string | number>;
-  hiddenFor?: View
-    fontSize: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl';
-    fontWeight: 'normal' | 'bold' | 'semibold';
-    textAlign: 'left' | 'center' | 'right';
+  hiddenFor?: Viewer' | 'right';
     color: string;
   };
 }
