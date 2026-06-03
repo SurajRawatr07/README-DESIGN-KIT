@@ -1,13 +1,4 @@
-/**
- * Utility to parse directory structures and add icons
- : '📄',
-  'msts': '🧪',
-  'docs': '📚',
-  'bin': '📦',
- CONS[ext]) return FILE_ICONS[ext];
-
-  return '📄';
-};
+/*
 
 export const 
     const treeCharsRegex = /^([│├─└\s]*)(.*)$/;
