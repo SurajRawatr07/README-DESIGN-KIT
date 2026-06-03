@@ -5,9 +5,7 @@ const DOT_COUNT = 8;
 functmouseY = useRef(0);
 nst 
 
-      dotRefs.current.forEach((dot, index) => {
-        if (!dot) return; - current.y) * 0.18;
-
+      dotRefs.current.forEa
         dot.style.left = `${current.x}px`;
         dot.style.top = `${current.y}px`;
       });
