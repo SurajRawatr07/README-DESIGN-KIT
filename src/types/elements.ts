@@ -3,13 +3,7 @@ import type { ViewMode } from '@/types/view-mode';
 
 export interface BaseElement {
   id: s
-/* =========
 
-export interface CodeBlockElement extends BaseElement {
-  type: 'code-block';
-  content: string;
-  language: string;
-}
 
 export interface TableElement extends BaseElement {
   type: 'table';
