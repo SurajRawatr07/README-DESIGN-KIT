@@ -8,8 +8,7 @@ export interface Template {
   created: Date;
   updured: boolean;
 }imal'
-  | 'professional'
-  | 'personal-projects'
+  | 'ersonal-projects'
   | 'other'
   | 'academic'    
   | 'community'   
