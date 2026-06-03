@@ -4,15 +4,6 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: s
 
-
-export interface TableElement extends BaseElement {
-  type: 'table';
-  headers: string[];
-  rows: string[][];
-}
-
-export interface BadgeElement extends BaseElement {
-  type: 'badge';
   content: string;
   variant?: 'default' | 'success' | 'warning' | 'error' | 'info';
   hiddenFor?: ('developer' | 'recruiter' | 'client')[];
