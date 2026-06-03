@@ -5,13 +5,7 @@
   'py': '🐍',
   'go': '⚙️',
   'yaml': '⚙️'🐳',
-  'gitignore': '🚫',
-  'env': '🔒',
-  'license': '⚖️',
-  'lock': '🔒',
-  'sln': '🔧',
-  'csproj': '🔷',
-
+  'gitignore': 
   // Configs
   'config': '⚙️',
   'settings': '⚙️',
