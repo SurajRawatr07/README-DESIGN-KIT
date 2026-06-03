@@ -7,12 +7,7 @@ export interface BaseElement {
 
 export interface TechStackElement extends BaseElement {
   type: 'tech-stack';
-  technologies: string[];
-  layout: 'grid' | 'list' | 'badges' | 'inline' | 'grouped';
-  badgeStyle?: string;
-  theme?: string;
-}
-
+  technologies
 export interface ImageElement extends BaseElement {
   type: 'image';
   src: string;
