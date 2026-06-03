@@ -2,11 +2,7 @@ import { useEffect, useRef } from "react";
 
 const DOT_COUNT = 8;
 
-functmouseY = useRef(0);
-nst 
 
-
-    animate();
 
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
