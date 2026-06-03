@@ -5,11 +5,7 @@ export interface ReadmeQualityResult {
   strengths: string[];
   missing: string[];
   suggestions: string[];
-}
-
-export function analyzeReadmeQuality(
-  elemere = 0;
-  const strengths: string[] = [];
+}ring[] = [];
   const missing: string[] = [];
   const suggestions: string[] = [];
 
