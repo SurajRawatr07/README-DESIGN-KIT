@@ -5,13 +5,10 @@ import { Badge } from '@/components/ui/badge';
 import {
   ArrowLeft,
   PanelLeft,
-  PanelRight,
-  Sparkles,
-  ChevronDown,
   Library,
   Github,
   Eye,
-} from 'lucide-react';
+} from 'lucide-react';a
 import {
   DropdownMenu,
   DropdownMenuContent,
