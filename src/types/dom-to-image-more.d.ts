@@ -4,11 +4,7 @@ declare module 'dom-to-image-more' {
     bgcolor?: string;
     width?: numb\ber;
     imagePlaceholder?: string;
-    cacheBust?: boolean;
-  }
-
-  const domToImage: {
-    toBlob: (node: Node, options?: Options) => Promise<Blob>;
+    cob: (node: Node, options?: Options) => Promise<Blob>;
     toPng: (node: Node, options?: Options) => Promise<string>;
     toJpeg: (node: Node, options?: Options) => Promise<string>;
     toSvg: (node: Node, options?: Options) => Promise<string>;
