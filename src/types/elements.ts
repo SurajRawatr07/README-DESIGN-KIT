@@ -4,12 +4,7 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: s
 /* =========
-
-export interface TechStackElement extends BaseElement {
-  type: 'tech-stack';
-  technologies
-export interface ImageElement extends BaseElement {
-  type: 'image';
+image';
   src: string;
   alt: string;
   width?: string;
