@@ -4,9 +4,7 @@ import { Button } from '@/components/ui/button';
 impoLeft,
   Library,
   Github,
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
+  DropdMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import {
