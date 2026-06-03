@@ -2,12 +2,7 @@
 import type { ViewMode } from '@/types/view-mode';
 
 export interface BaseElement {
-  id: string;
-  type: strin';
-  content: string;== LAYOUT ELEMENTS ===================== */
-
-export string;
-}
+  id: s
 
 export interface DividerElement extends BaseElement {
   type: 'divider';
