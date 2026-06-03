@@ -6,10 +6,6 @@ impoLwnMenuTrigger,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-import { ElementDialog } from '@/components/ReadmeQualityDialog';
-import ScrollToTop from '@/components/ScrollToTop';
-import { useIse;
-
   // Helper to update elements with history tracking
   const setElements = (newElements: ElementType[] | ((prev: ElementType[]) => ElementType[])) => {
     if (typeof newElements === 'function') {
