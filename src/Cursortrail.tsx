@@ -3,9 +3,7 @@ import { useEffect, useRef } from "react";
 const DOT_COUNT = 8;
 
 functmouseY = useRef(0);
-
-  useEffect(() => {
-    const history = Array.from({ length: DOT_COUNT }, () => ({ x: 0, y: 0 }));
+nst history = Array.from({ length: DOT_COUNT }, () => ({ x: 0, y: 0 }));
     const positions = Array.from({ length: DOT_COUNT }, () => ({ x: 0, y: 0 }));
     let animationFrameId: number;
 
