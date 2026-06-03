@@ -5,22 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 0.88 0.006 45);
   --input: oklch(0.88 0.006 45);
-  --ring: oklch(0.606 0.25 292.717);
-  --chartary: oklch(0.606 0.25 292.717);
-  --sidebar-primary-foreground: oklch(0.98 0.003 45);
-  --sidebar-accent: oklch(0.94 0.004 45);
-  --sidebar-accent-foreground: oklch(0.18 0.008 270);
-  --sidebar-border: oklch(0.88 0.006 45);
-  --sidebar-ring: oklch(0.606 0.25 292.717);
-}
-
-.dark {
-  --background: oklch(0.08 0.005 285.823);
-  --foreground: oklch(0.95 0.002 286.38);
-  --card: oklch(0.12 0.006 285.885);
-  --card-foreground: oklch(0.95 0.002 286.38);
-  --popover: oklch(0.12 0.006 285.885);
-  --popover-foreground: oklch(0.95 0.002 286.38);
+  --ring: oklcund: oklch(0.95 0.002 286.38);
   --primary: oklch(0.541 0.281 293.009);
   --primary-foreground: oklch(0.969 0.016 293.756);
   --secondary: oklch(0.18 0.006 286.033);
