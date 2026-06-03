@@ -4,12 +4,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
   }
 
   /ementType[] {
-    const clonedTemplateElements = this.refreshElementIds(templateElements);
-    const result = [...existingElements];
-    result.splice(position, 0, ...clonedTemplateElements);
-    return result;
-  }
-
+    const clonedT
   /**
    * Extract template data from elements (for saving as template)
    */
