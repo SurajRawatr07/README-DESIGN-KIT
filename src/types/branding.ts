@@ -2,10 +2,7 @@ export type BrandingTone = 'casual' | 'technical' | 'professional' | 'open-sourc
 
 export type BrandingFixType = 'grammar' | 'enhancement' | 'rewrite' | 'addition';
 g; // 🆕 Link suggest    // 🆕 Score (0 to 1) indicating how certain the suggestion is
-  excerpt?: string;           // 🆕 Snippet from content that triggered the suggestion
-  suggestionRange?: {
-    start: number;
-    end: number;
+  excerpt?: string;   
   };
   action?: SuggestionAction; // 🆕 Enhanced action for complex operations
 }
