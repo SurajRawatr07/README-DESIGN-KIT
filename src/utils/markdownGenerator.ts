@@ -6,13 +6,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
     // Get theme color baslds.io/badge/${tech}-${themeColor}?style=for-the-badge&logoColor=white&labelColor=${themeColor}`;
     }
     else if (badgeStyle === 'skill-icons') {
-      // Skill Icons - uses skillicons.dev
-      return `httappings: { [key: string]: string } = {
-        'javascript': '5968292', 'typescript': '5968381', 'python': '5968350',
-        'react': '1183672', 'node.js': '5968322', 'java': '5968282',
-        'html': '1051277', 'css': '732190', 'git': '2111288'
-      };
-      const iconId = flatIconMappings[cleanTechName] || '4248443'; // Default icon if not found
+      // Id = flatIconMappings[cleanTechName] || '4248443'; // Default icon if not found
       return `https://cdn-icons-png.flaticon.com/128/${iconId.slice(0, -3)}/${iconId}.png`;
     }
     else if (badgeStyle === 'material-icons') {
