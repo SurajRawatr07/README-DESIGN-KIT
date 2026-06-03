@@ -5,13 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inlground: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card--foreground: var(--secondary-foreground);
-  --coloccent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
+  --colput: var(--input);
   --color-ring: var(--ring);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
