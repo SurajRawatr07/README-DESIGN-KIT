@@ -6,14 +6,5 @@ export interface Template {
   version: string;
   popularityber;
   }[];
-  popularTags: {
-    tag: string;
-    count: number;
-  }[];
-}
-
-export interface UserTemplatePreferences {
-  favorites: string[];
-  recentlyUsed: string[];
-  recentlyViewed: string[];
+  popularT string[];
 }
