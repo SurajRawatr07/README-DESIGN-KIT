@@ -10,11 +10,7 @@ export type Patch = ReturnType<typeof diff>;
       current = current[path[i]];
     }
 ge.type === 'CREATE' || change.type === 'CHANGE') {
-      current[key] = change.value;
-    } else if (change.type === 'REMOVE') {
-      if (Array.isArray(current)) {
-        // Handle array removal
-        current.splice(Number(key), 1);
+      curnt.splice(Number(key), 1);
       } else {
         delete current[key];
       }
