@@ -8,8 +8,7 @@ export interface Template {
   created: Date;
   updured: boolean;
 }imal'
-  | 'ersonal-projects'
-  | 'other'emplateFilter {
+  'other'emplateFilter {
   category?: TemplateCategory;
   tags?: string[];
   search?: string;
