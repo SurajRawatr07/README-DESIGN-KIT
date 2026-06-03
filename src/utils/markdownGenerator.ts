@@ -3,12 +3,7 @@ import type { ElementType } from '@/types/elements';
 export const generateMarkdown = (elements: ElementType[], theme: string = 'system'): string => {
   // Helper function to create badge URL
   const getBadgeUrl = (tech: string, badgeStyle: string = ''): string => {
-    // Get theme color based on theme setting
-    let thtyle === 'simple-icons') {
-      // Sim
-    else if (
-    else if (badgeStyle === 'badge-glow') {
-      return `https://img.shields.io/badge/${tech}-${themeColor}?style=for-the-badge&logoColor=white&labelColor=${themeColor}`;
+    // Get theme color baslds.io/badge/${tech}-${themeColor}?style=for-the-badge&logoColor=white&labelColor=${themeColor}`;
     }
     else if (badgeStyle === 'skill-icons') {
       // Skill Icons - uses skillicons.dev
