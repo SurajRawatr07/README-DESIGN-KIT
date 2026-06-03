@@ -1,14 +1,7 @@
 import type { ElementType } from './elements';
 
 export interface Template {
-  id: string;
-  name: string;
-  description: string;
-  category: TemplateCategory;
-  tags: string[];
-  elements?: ElementType[];
-  markdown?: string;
-  thumbnail?: string;
+  id: string;g;
   author: string;
   version: string;
   popularity: number;
