@@ -6,10 +6,7 @@ export class TemplateUtils {
 ${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
 refreshElementIds(elements: ElementType[]): ElementType[] {
-    return elements.map(element => ({
-      ...element,
-      id: this.generateElementId(element.type),
-    }));
+    return elemen
   }
 
   /**
