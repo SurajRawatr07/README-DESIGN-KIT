@@ -3,9 +3,6 @@ import type { ElementType } from '@/types/elements';
 
 export class TemplateUtils {
   /**
-   * Clone te.id}-element-${index}-${Date.now()}`,
-    }));
-  }
 ${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
 
