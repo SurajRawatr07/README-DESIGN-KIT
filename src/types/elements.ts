@@ -4,12 +4,6 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: s
 /* =========
-image';
-  src: string;
-  alt: string;
-  width?: string;
-  height?: string;
-}
 
 export interface CodeBlockElement extends BaseElement {
   type: 'code-block';
