@@ -1,12 +1,7 @@
 import type { Template } from '@/types/templates';
 import type { ElementType } from '@/types/elements';
 
-export class TemplateUtils {
-  /**
-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-  }
-refreshElementIds(elements: ElementType[]): ElementType[] {
-    return elemen
+eturn elemen
   }
 
   /**
