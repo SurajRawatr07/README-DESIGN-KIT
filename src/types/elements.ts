@@ -4,16 +4,6 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: s
 
-  content: string;
-  variant?: 'default' | 'success' | 'warning' | 'error' | 'info';
-  hiddenFor?: ('developer' | 'recruiter' | 'client')[];
-}
-
-export interface InstallationElement extends BaseElement {
-  type: 'installation';
-  content: string;
-  instructions?: string[];
-}
 
 /* ===================== 🔥 ANIMATED TECH ELEMENT ===================== */
 
