@@ -4,11 +4,7 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: string;
   type: strin';
-  content: string;
-  level: 1 | 2 | 3 | 4 | 5 | 6;
-}
-
-/* ===================== LAYOUT ELEMENTS ===================== */
+  content: string;== LAYOUT ELEMENTS ===================== */
 
 export interface BannerElement extends BaseElement {
   type: 'banner';
