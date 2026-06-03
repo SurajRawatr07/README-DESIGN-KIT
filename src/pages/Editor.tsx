@@ -10,12 +10,7 @@ export const EditorPage = () => {
   // 1. Fixes initialElements error: Elements state starts empty
   
   const [elements, setElements] = useState<ElementType[]>([]); 
-// 2. Fixes setElements warning: Load selected template from library on mount
-  
-  useEffect(() => {
-    const savedTemplate = sessionStorage.getItem('selectedTemplate');
-    if (savedTemplate) {
-      const template: Template = JSON.parse(savedTemplate);
+// 2. Fixes setElemplate = JSON.parse(savedTemplate);
       
       setElements(template.elements || []); 
     }
