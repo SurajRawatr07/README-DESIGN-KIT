@@ -1,15 +1,5 @@
 import type { Template } from '@/types/templates';
-import type { ElementType } from '@/types/elements';
-
-eturn elemen
-  }
-
-    return {
-      isValid: errors.length === 0,
-      errors,
-    };
-  }Elements(existingElements: ElementType[], templateElements: ElementType[]): ElementType[] {
-    const clonedTemplateElements = this.refreshElementIds(templateElements);
+import tyclonedTemplateElements = this.refreshElementIds(templateElements);
     return [...existingElements, ...clonedTemplateElements];
   }
 
