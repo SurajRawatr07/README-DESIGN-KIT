@@ -5,11 +5,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import ScrollRestoration from "./components/ScrollRestoration";
-import Elements from "./pages/Elements";
-
-import DragDropEditor from "./pages/DragDropEditor";
-import TemplateLibraryPage from "./pages/TemplateLibraryPage";
-
+import Elemen
 
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
