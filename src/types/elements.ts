@@ -4,14 +4,7 @@ import type { ViewMode } from '@/types/view-mode';
 export interface BaseElement {
   id: string;
   type: string;
-  content?: string;
-  style?: Record<string, string | number>;
-  hiddenFor?: Viewer' | 'right';
-    color: string;
-  };
-}
-
-export interface TitleElement extends BaseElement {
+  cerface TitleElement extends BaseElement {
   type: 'title';
   content: string;
 }
