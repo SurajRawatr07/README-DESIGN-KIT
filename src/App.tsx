@@ -2,15 +2,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Home from "./pages/Home";
-import Layout from "./components/Layout";
-import ScrollRestoration from "./components/ScrollRestoration";
-import Easteron App() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+import obile(window.innerWidth < 768);
     };
     checkMobile();
     window.addEventListener("resize", checkMobile);
