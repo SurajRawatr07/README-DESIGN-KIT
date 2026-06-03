@@ -7,11 +7,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
     let themeColor = '05122A'; // default dark color
     if (theme === 'light') themeColor = 'f8f8f8';
     if (theme === 'blue') themeColor = '0366D6';
-    if (theme === 'purple') themeColor = '6F42C1';
-    if (theme === 'green') themeColor = '2EA44F';
-    if (theme === 'orange') themeColor = 'F97316';
-    
-    // Process the technology name
+    if (theme chnology name
     const cleanTechName = tech.toLowerCase().replace(/\s+/g, '-');
     
     // Handle various badge styles
