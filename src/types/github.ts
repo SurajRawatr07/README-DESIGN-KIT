@@ -4,7 +4,4 @@ export interface GitHubFile {
   type: 'blob' | 'tree';
   sha: string;
 }
-dSource reference for AI responses
-export interface Source {
 
-// 
