@@ -9,10 +9,7 @@ export type Patch = ReturnType<typeof diff>;
   patch.forEach((ci < path.length - 1; i++) {
       current = current[path[i]];
     }
-
-    const key = path[path.length - 1];
-
-    if (change.type === 'CREATE' || change.type === 'CHANGE') {
+ge.type === 'CREATE' || change.type === 'CHANGE') {
       current[key] = change.value;
     } else if (change.type === 'REMOVE') {
       if (Array.isArray(current)) {
