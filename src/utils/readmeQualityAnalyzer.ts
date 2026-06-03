@@ -9,10 +9,6 @@ export interface ReadmeQualityResult {
   const missing: string[] = [];
   const suggestions: string[] = [];
 
-  const types: ElementType['type'][] = elements.map(e => e.type);
-
-  const has = (t: ElementType['type']) => types.includes(t);
-
   if (has('title') || has('header')) {
     score += 15;
     strengths.push('Project title is present');
