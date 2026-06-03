@@ -3,12 +3,6 @@ import type { ViewMode } from '@/types/view-mode';
 
 export interface BaseElement {
   id: s
-
-export interface DividerElement extends BaseElement {
-  type: 'divider';
-  dividerStyle: 'line' | 'dots' | 'stars';
-}
-
 /* ===================== FUNCTIONAL ELEMENTS ===================== */
 
 export interface GitContributionElement extends BaseElement {
