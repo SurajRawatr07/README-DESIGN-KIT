@@ -8,9 +8,7 @@ impoLwnMenuTrigger,
 
 import { ElementDialog } from '@/components/ReadmeQualityDialog';
 import ScrollToTop from '@/components/ScrollToTop';
-import { useIsMobile } from '@/hooks/use-mobile';
-import { useHistory } from '@/contexts/HistoryContext';
-import { demoElements } from '@/data/demo';
+import { useIsments } from '@/data/demo';
 import { TemplateUtils } from '@/utils/templateUtils';
 import { analyzeReadmeQuality, type ReadmeQualityResult } from '@/utils/readmeQualityAnalyzer';
 import type { ElementType, GitContributionElement } from '@/types/elements';
