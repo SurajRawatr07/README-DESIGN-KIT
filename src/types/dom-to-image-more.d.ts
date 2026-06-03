@@ -2,10 +2,7 @@ declare module 'dom-to-image-more' {
   export interface Options {
     filter?: (node: Node) => boolean;
     bgcolor?: string;
-    width?: number;
-    height?: number;
-    style?: any;
-    quality?: number;
+    width?: numb\ber;
     imagePlaceholder?: string;
     cacheBust?: boolean;
   }
