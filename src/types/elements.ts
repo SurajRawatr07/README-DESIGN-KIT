@@ -6,11 +6,7 @@ export interface BaseElement {
   type: strin';
   content: string;== LAYOUT ELEMENTS ===================== */
 
-export interface BannerElement extends BaseElement {
-  type: 'banner';
-  content: string;
-  variant: 'default' | 'gradient' | 'colored';
-  color: string;
+export string;
 }
 
 export interface DividerElement extends BaseElement {
