@@ -3,13 +3,7 @@ import type { ViewMode } from '@/types/view-mode';
 
 export interface BaseElement {
   id: s
-/* ===================== FUNCTIONAL ELEMENTS ===================== */
-
-export interface GitContributionElement extends BaseElement {
-  type: 'git-contribution';
-  username: string;
-  repository: string;
-}
+/* =========
 
 export interface TechStackElement extends BaseElement {
   type: 'tech-stack';
