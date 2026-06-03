@@ -6,11 +6,6 @@ impoLwnMenuTrigger,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-  // Helper to update elements with history tracking
-  const setElements = (newElements: ElementType[] | ((prev: ElementType[]) => ElementType[])) => {
-    if (typeof newElements === 'function') {
-      commit(newElements(elements));
-    } else {
       commit(newElements);
     }
   };
