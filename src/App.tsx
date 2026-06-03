@@ -5,14 +5,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import ScrollRestoration from "./components/ScrollRestoration";
-import Elemen
-
-import NotFound from "./pages/NotFound";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfService from "./pages/TermsOfService";
-import AboutUs from "./components/_components/about";
-import { ThemeProvider } from "./components/theme-provider";
-import { Toaster } from "./components/ui/sonner";
+import Easter } from "./components/ui/sonner";
 import ReadmeEditor from "./components/readme-editor/ReadmeEditor";
 import MarkdownEditor from "./pages/MarkdownEditor";
 import Cursortrail from "./Cursortrail";
