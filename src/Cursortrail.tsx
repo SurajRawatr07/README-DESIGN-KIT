@@ -3,10 +3,6 @@ import { useEffect, useRef } from "react";
 const DOT_COUNT = 8;
 
 
-
-    return () => {
-
-  return (
     <div className="cursor-container">
       {Array.from({ length: DOT_COUNT }).map((_, index) => (
         <span
