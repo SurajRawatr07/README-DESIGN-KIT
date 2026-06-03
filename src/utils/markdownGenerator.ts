@@ -8,9 +8,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
       // Sim
     else if (badgeStyle === 'flat-colored') {
       return `https://img.shields.io/badge/${tech}-${themeColor}?style=flat&logoColor=white`;
-    }
-    else if (badgeStyle === 'badge-card') {
-      return `https://img.shields.io/static/v1?label=&message=${tech}&color=${themeColor}&style=for-the-badge`;
+    }rn `https://img.shields.io/static/v1?label=&message=${tech}&color=${themeColor}&style=for-the-badge`;
     }
     else if (badgeStyle === 'badge-glow') {
       return `https://img.shields.io/badge/${tech}-${themeColor}?style=for-the-badge&logoColor=white&labelColor=${themeColor}`;
