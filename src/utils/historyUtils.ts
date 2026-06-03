@@ -7,9 +7,7 @@ export type Patch = ReturnType<typeof diff>;
  * Applies a pSON.parse(JSON.stringify(state));
 
   patch.forEach((change) => {
-    const path = change.path;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    let current = newState as any;
+    const path = chState as any;
 
     // Navigate to the parent of the target property
     for (let i = 0; i < path.length - 1; i++) {
