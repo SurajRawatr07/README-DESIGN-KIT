@@ -4,12 +4,7 @@ export interface Template {
   id: string;g;
   author: string;
   version: string;
-  popularity: number;
-  crea?: Tce TemplateMetadata {
-  totalTemplates: number;
-  categories: {
-    category: TemplateCategory;
-    count: number;
+  popularityber;
   }[];
   popularTags: {
     tag: string;
