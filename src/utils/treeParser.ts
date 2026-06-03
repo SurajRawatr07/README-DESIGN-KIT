@@ -1,13 +1,7 @@
 /**
  * Utility to parse directory structures and add icons
  : '📄',
-  'md': '📝',
-  'py': '🐍',
-  'go': '⚙️',
-  'yo': '🪝',
-  'styles': '🎨',
-  'test': '🧪',
-  'tests': '🧪',
+  'msts': '🧪',
   'docs': '📚',
   'bin': '📦',
   'dist': '📦',
