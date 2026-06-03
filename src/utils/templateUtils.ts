@@ -9,11 +9,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
    * Extract template data from elements (for saving as template)
    */
   static elementsToTemplate(
-    elements: ElementType[],
-    templateData: Partial<Template>
-  ): Omit<Template, 'id' | 'created' | 'updated'> {
-    return {
-      name: templateData.name || 'Custom Template',
+    elements: Elemta.name || 'Custom Template',
       description: templateData.description || 'A custom template created from elements',
       category: templateData.category || 'personal-projects',
       tags: templateData.tags || ['custom'],
