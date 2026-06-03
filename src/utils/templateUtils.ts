@@ -6,12 +6,7 @@ export class TemplateUtils {
    * Clone te.id}-element-${index}-${Date.now()}`,
     }));
   }
-
-  /**
-   * Generate unique element ID
-   */
-  static generateElementId(type: string): string {
-    return `${type}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
 
   /**
