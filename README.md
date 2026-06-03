@@ -8,15 +8,7 @@
   <h3>✨ Craft Beautiful Documentation in Minutes</h3>
   
 
-  <div align="center">
-  <img src="https://img.shields.io/github/contributors/Mayur-Pagote/README_Design_Kit" alt="Contributors">
-  <img src="https://img.shields.io/github/forks/Mayur-Pagote/README_Design_Kit" alt="Forks">
-    <img src="https://img.shields.io/github/stars/Mayur-Pagote/README_Design_Kit?style=social" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/issues/Mayur-Pagote/README_Design_Kit" alt="Issues">
-  <img src="https://img.shields.io/github/issues-pr/Mayur-Pagote/README_Design_Kit" alt="Pull Requests">
-</div>
-  
-</div>
+ 
 
 
 
@@ -90,23 +82,7 @@ Stop staring at blank markdown files. Start shipping documentation that develope
 </table>
 
 
-## 🌟 Open Source Participation
-<table>
-  <tr>
-    <th>Program</th>
-    <th>Program Name</th>
-    <th>Start Date</th>
-    <th>End Date</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./public/SSOC.logo.png" alt="SSoC Logo" height="80">
-    </td>
-    <td><strong>Social Summer of Code (SSoC)</strong></td>
-    <td>25 June 2025</td>
-    <td>25 August 2025</td>
-  </tr>
-  <tr>
+
     <td align="center">
       <img src="./public/SWOC.logo.png" alt="SWoC Logo" height="80">
     </td>
