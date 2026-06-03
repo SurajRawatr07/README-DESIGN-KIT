@@ -2,9 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { TemplateUtils } from '@/utils/templateUtils';
 import { Sidebar } from '@/components/Editor/Sidebar'; 
 import { ReadmePreview } from '@/components/ReadmePreview'; 
-import type { ElementType } from '@/types/elements';
-import type { Template } from '@/types/templates';
-
+import type { E
 export const EditorPage = () => {
   const [variables, setVariables] = useState({ NAME: '', GITHUB_USER: '' });
   // 1. Fixes initialElements error: Elements state starts empty
