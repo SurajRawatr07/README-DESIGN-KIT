@@ -9,13 +9,7 @@ export interface Template {
   updured: boolean;
 }imal'
   | 'ersonal-projects'
-  | 'other'
-  | 'academic'    
-  | 'community'   
-  | 'portfolio'
-  | 'open-source';
-
-export interface TemplateFilter {
+  | 'other'emplateFilter {
   category?: TemplateCategory;
   tags?: string[];
   search?: string;
