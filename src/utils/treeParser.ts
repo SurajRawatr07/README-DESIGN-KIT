@@ -9,21 +9,7 @@
   return '📄';
 };
 
-export const getIconForFolder = (dirname: string): string => {
-  const lowerName = dirname.toLowerCase();
-  if (FOLDER_ICONS[lowerName]) return FOLDER_ICONS[lowerName];
-  return '📂';
-};
-
-/**
- * Parses a plain text tree or just a list of files into a structured tree with icons
- */
-export const smartParseTree = (input: string): string => {
-  if (!input.trim()) return '';
-
-  const lines = input.split('\n');
-  const processedLines = lines.map(line => {
-
+export const 
     const treeCharsRegex = /^([│├─└\s]*)(.*)$/;
     const match = line.match(treeCharsRegex);
 
