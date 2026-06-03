@@ -8,14 +8,7 @@ impoLwnMenuTrigger,
 
 import { ElementDialog } from '@/components/ReadmeQualityDialog';
 import ScrollToTop from '@/components/ScrollToTop';
-import { useIseExportPreset } from '@/config/readmeExportPresets';
-import { toast } from 'sonner';
-
-export default function DragDropEditor() {
-  const {
-    state: elements,
-    commit
-  } = useHistory();
+import { useIse;
 
   // Helper to update elements with history tracking
   const setElements = (newElements: ElementType[] | ((prev: ElementType[]) => ElementType[])) => {
