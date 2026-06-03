@@ -5,12 +5,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
 
   /**
    * Replace all elements with template elements
-   */
-  staticmplate elements at specific position
-   */
-  static insertElementsAt(
-    existingElements: ElementType[], 
-    templateElements: ElementType[], 
+   *mplateElements: ElementType[], 
     position: number
   ): ElementType[] {
     const clonedTemplateElements = this.refreshElementIds(templateElements);
