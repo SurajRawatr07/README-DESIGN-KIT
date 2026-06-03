@@ -4,9 +4,6 @@ import { Button } from '@/components/ui/button';
 impoLeft,
   Library,
   Github,
-  Eye,
-} from 'lucide-react';a
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
