@@ -4,13 +4,6 @@ import diff from 'microdiff';
 export type Patch = ReturnType<typeof diff>;
 
 /**
- * Calculates the difference between two states.
- */
-export function getDiff<T extends object>(oldState: T, newState: T): Patch {
-  return diff(oldState, newState);
-}
-
-/**
  * Applies a patch to a state to produce a new state.
  * This is a simplified patch applicator for microdiff.
  */
