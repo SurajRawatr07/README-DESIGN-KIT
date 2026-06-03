@@ -1,8 +1,7 @@
 import type { BrandingTone, BrandingAnalysis } from '@/types/branding';
 import type { ElementType } from '@/types/elements';
 
-const TONE_DESCRIPTIONS: Record<
-/**
+const TONE_DESCRIPTIONS: Record
  * analyzeBranding (Refactored)
  * AI-powered analysis has been removed to simplify the core workflow.
  * We've renamed it back to analyzeBranding and added the missing 'selectedTone' property.
