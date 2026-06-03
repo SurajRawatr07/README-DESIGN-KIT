@@ -4,27 +4,7 @@
   'msts': '🧪',
   'docs': '📚',
   'bin': '📦',
-  'dist': '📦',
-  'views': '👁️',
-  'routes': '🛣️',
-  'services': '🔧',
-  'config': '⚙️',
-  'middleware': '🛡️',
-  'migrations': '🔄',
-  'types': '🏷️',
-  'interfaces': '🏷️',
-};
-
-export const getIconForFile = (filename: string): string => {
-  const lowerName = filename.toLowerCase();
-
-  // Check exact matches first (for dotfiles like .gitignore)
-  if (FILE_ICONS[lowerName]) return FILE_ICONS[lowerName];
-  if (FILE_ICONS[lowerName.replace('.', '')]) return FILE_ICONS[lowerName.replace('.', '')];
-
-  // Extension check
-  const ext = lowerName.split('.').pop();
-  if (ext && FILE_ICONS[ext]) return FILE_ICONS[ext];
+ CONS[ext]) return FILE_ICONS[ext];
 
   return '📄';
 };
