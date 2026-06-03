@@ -6,12 +6,7 @@ impoLwnMenuTrigger,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-import { ElementPalette } from '@/components/ElementPalette';
-import { EditmePreview } from '@/components/ReadmePreview';
-import { ElementEditor } from '@/components/ElementEditor';
-import { SaveTemplateDialog } from '@/components/SaveTemplateDialog';
-import { GithubUsernameDialog } from '@/components/GithubUsernameDialog';
-import { ReadmeQualityDialog } from '@/components/ReadmeQualityDialog';
+import { ElementDialog } from '@/components/ReadmeQualityDialog';
 import ScrollToTop from '@/components/ScrollToTop';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { useHistory } from '@/contexts/HistoryContext';
