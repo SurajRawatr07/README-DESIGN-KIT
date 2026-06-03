@@ -6,10 +6,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
     // Get theme color based on theme setting
     let themeColor = '05122A'; // default dark color
     if (theme === 'light') themeColor = 'f8f8f8';
-    if (theme === 'blue') themeColor = '0366D6';
-    if (theme chnology name
-    const cleanTechName = tech.toLowerCase().replace(/\s+/g, '-');
-    
+    if (theme === 'blu
     // Handle various badge styles
     if (badgeStyle === 'simple-icons') {
       // Simple Icons style - uses shields.io with logo parameter
