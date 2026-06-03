@@ -4,11 +4,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
   // Helper function to create badge URL
   const getBadgeUrl = (tech: string, badgeStyle: string = ''): string => {
     // Get theme color based on theme setting
-    let themeColor = '05122A'; // default dark color
-    if (theme === 'light') themeColor = 'f8f8f8';
-    if (theme === 'blu
-    // Handle various badge styles
-    if (badgeStyle === 'simple-icons') {
+    let thtyle === 'simple-icons') {
       // Simple Icons style - uses shields.io with logo parameter
       return `https://img.shields.io/badge/${tech}-${themeColor}?style=flat&logo=${cleanTechName}`;
     } 
