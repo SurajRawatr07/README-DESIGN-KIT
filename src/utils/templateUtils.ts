@@ -7,14 +7,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
       elements: this.refreshElementIds(elements),
     }; elements.reduce((acc, element) => {
       acc[element.type] = (acc[element.type] || 0) + 1;
-      return acc;
-    }, {} as Record<string, number>);
-
-    return {
-      totalElements: elements.length,
-      elementTypes,
-      estimatedReadTime: Math.ceil(elements.length * 0.5), // rough estimate in minutes
-      complexity:
+      rety:
         elements.length > 10 ? 'complex' : elements.length > 5 ? 'medium' : 'simple',
     };
   }
