@@ -6,17 +6,7 @@ impoLwnMenuTrigger,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-      commit(newElements);
-    }
-  };
-
-  const [editingElement, setEditingElement] = useState<ElementType | null>(null);
-  const [showPalette, setShowPalette] = useState(!useIsMobile());
-  const [showPreview, setShowPreview] = useState(!useIsMobile());
-  const [showPaletteSheet, setShowPaletteSheet] = useState(false);
-  const [loadedTemplateName, setLoadedTemplateName] = useState<string | null>(null);
-  const [backToTopVisible, setBackToTopVisible] = useState(false);
-  const [githubUsername, setGithubUsername] = useState<string>('your-username');
+  hubUsername, setGithubUsername] = useState<string>('your-username');
   const [showGithubUsernameInput, setShowGithubUsernameInput] = useState(false);
 
 
