@@ -5,13 +5,7 @@
   --sidebar-ring: oklch(0.541 0.281 293.009);
 }
 
-/* GitHub Preview Themes - Scoped to the preview container */
-.github-light {
-.github-dark {
-  --background: 212 32% 7%;
-  --foreground: 210 40% 93%;
-  --muted: 212 32% 11%;
-  --muted-foreground: 210 40% 65%;
+/* GitHuboreground: 210 40% 65%;
   --border: 212 32% 21%;
   --card: 212 32% 9%;
   --card-foreground: 210 40% 93%;
