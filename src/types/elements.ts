@@ -5,15 +5,7 @@ export interface BaseElement {
   id: s
 
 
-/* ===================== 🔥 ANIMATED TECH ELEMENT ===================== */
-
-export interface AnimatedAWSElement extends BaseElement {
-  type: 'animated-aws';
-}
-
-/* ===================== STRONG UNION ===================== */
-
-export type ElementType =
+/* == ElementType =
   | TextElement
   | TitleElement
   | DescriptionElement
