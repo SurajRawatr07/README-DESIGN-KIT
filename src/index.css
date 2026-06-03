@@ -4,14 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 0.88 0.006 45);
-  --input: oklch(0.88 0.006 45);
-  --ring: oklcund: oklch(0.95 0.002 286.38);
-  --primary: oklch(0.541 0.281 293.009);
-  --primary-foreground: oklch(0.969 0.016 293.756);
-  --secondary: oklch(0.18 0.006 286.033);
-  --secondary-foreground: oklch(0.95 0.002 286.38);
-  --muted: oklch(0.18 0.006 286.033);
-  --muted-foreground: oklch(0.65 0.015 286.067);
+  --input: oklch(0.: oklch(0.65 0.015 286.067);
   --accent: oklch(0.18 0.006 286.033);
   --accent-foreground: oklch(0.95 0.002 286.38);
   --destructive: oklch(0.704 0.191 22.216);
