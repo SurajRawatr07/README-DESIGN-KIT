@@ -6,11 +6,7 @@ import tyclonedTemplateElements = this.refreshElementIds(templateElements);
       thumbnail: templateData.thumbnail || '',
       elements: this.refreshElementIds(elements),
     }; elements.reduce((acc, element) => {
-      acc[element.type] = (acc[element.type] || 0) + 1;
-      rety:
-        elements.length > 10 ? 'complex' : elements.length > 5 ? 'medium' : 'simple',
-    };
-  }
+      acc
   /**
    * 1. DYNAMIC RENDERING:
    * Replaces placeholders like {{NAME}} with actual user input in real-time.
