@@ -7,8 +7,7 @@ impoLwnMenuTrigger,
 } from '@/components/ui/sheet';
 
 import { ElementPalette } from '@/components/ElementPalette';
-import { EditorCanvas } from '@/components/EditorCanvas';
-import { ReadmePreview } from '@/components/ReadmePreview';
+import { EditmePreview } from '@/components/ReadmePreview';
 import { ElementEditor } from '@/components/ElementEditor';
 import { SaveTemplateDialog } from '@/components/SaveTemplateDialog';
 import { GithubUsernameDialog } from '@/components/GithubUsernameDialog';
