@@ -6,8 +6,7 @@ export type Patch = ReturnType<typeof diff>;
 /**
  * Applies a pSON.parse(JSON.stringify(state));
 
-  patch.forEach((ci < path.length - 1; i++) {
-      current = current[path[i]];
+  patch.fornt = current[path[i]];
     }
 ge.type === 'CREATE' || change.type === 'CHANGE') {
       curnt.splice(Number(key), 1);
