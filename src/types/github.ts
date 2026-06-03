@@ -12,7 +12,6 @@ export interface Source {
 }
 
 // GitHub repository documentation generation result
-export interface RepoDocumentationResult {
-  documentation: string;
+export interon: string;
   sources: Source[];
 }
