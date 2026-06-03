@@ -6,7 +6,3 @@ declare module 'dom-to-image-more' {
     imagePlaceholder?: string;
     cob: (node: Node, options?: Options) => Promise<Blob>;
     toPng: (node: Nod Node, options?: Options) => Promise<Uint8ClampedArray>;
-  };
-
-  export default domToImage;
-}
