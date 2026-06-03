@@ -6,10 +6,7 @@ const TONE_DESCRIPTIONS: Record
  * AI-powered analysis has been removed to simplify the core workflow.
  * We've renamed it back to analyzeBranding and added the missing 'selectedTone' property.
  */
-export async function analyzeBranding(_elements: ElementType[], targetTone: BrandingTone): Promise<BrandingAnalysis> {
-  // Return a static/basic analysis result instead of calling AI
-  return {
-    overallScore: 70,
+export async function analyzeBranding(_elements:
     toneConsistency: 60,
     selectedTone: targetTone, // This property is required by the BrandingAnalysis interface
     detectedTone: 'professional' as BrandingTone,
