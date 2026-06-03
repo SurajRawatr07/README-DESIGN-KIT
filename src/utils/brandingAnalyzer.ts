@@ -8,9 +8,6 @@ const TONE_DESCRIPTIONS: Record
  */
 export async function analyzeBranding(_elements:
     toneConsistency: 60,
-    selectedTone: targetTone, // This property is required by the BrandingAnalysis interface
-    detectedTone: 'professional' as BrandingTone,
-    suggestions: [
       {
         id: 'manual-1',
         section: 'Getting Started',
