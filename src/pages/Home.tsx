@@ -14,6 +14,7 @@ export default function Home() {
   const navigate = useNavigate();
   const isDark = theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
 
+  
   return (
     <div className="w-full min-h-screen flex flex-col mb-5">
       <div className="w-full flex flex-col flex-1 px-4">
