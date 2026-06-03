@@ -4,14 +4,7 @@
   'md': '📝',
   'py': '🐍',
   'go': '⚙️',
-  'yaml': '⚙️'🐳',
-  'gitignore': 
-  // Configs
-  'config': '⚙️',
-  'settings': '⚙️',
-  'rc': '⚙️',
-};
-
+  'yaml': '⚙️
 const FOLDER_ICONS: Record<string, string> = {
   'src': '📂',
   'public': '📂',
