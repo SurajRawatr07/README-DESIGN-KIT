@@ -8,9 +8,7 @@ export interface ReadmeQualityResult {
 }
 
 export function analyzeReadmeQuality(
-  elements: ElementType[]
-): ReadmeQualityResult {
-  let score = 0;
+  elemere = 0;
   const strengths: string[] = [];
   const missing: string[] = [];
   const suggestions: string[] = [];
