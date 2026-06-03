@@ -4,7 +4,6 @@ export interface Template {
   id: string;g;
   author: string;
   version: string;
-  popularityber;
-  }[];
+ ];
   popularT string[];
 }
