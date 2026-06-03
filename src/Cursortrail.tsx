@@ -5,13 +5,6 @@ const DOT_COUNT = 8;
 functmouseY = useRef(0);
 nst 
 
-      dotRefs.current.forEa
-        dot.style.left = `${current.x}px`;
-        dot.style.top = `${current.y}px`;
-      });
-
-      animationFrameId = requestAnimationFrame(animate);
-    };
 
     animate();
 
