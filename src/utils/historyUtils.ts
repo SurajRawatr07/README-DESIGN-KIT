@@ -8,8 +8,7 @@ export type Patch = ReturnType<typeof diff>;
 
   patch.forEach((change) => {
     const path = chState as any;
-
-    // Navigate to the parent of the target property
+arent of the target property
     for (let i = 0; i < path.length - 1; i++) {
       current = current[path[i]];
     }
