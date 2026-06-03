@@ -5,16 +5,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import ScrollRestoration from "./components/ScrollRestoration";
-import Easter } fw QueryClient();
-
-// Placeholder components for missing routes to prevent app crash
-const ProjectsSection = () => <div className="p-20 text-center text-muted-foreground">Projects Section Coming Soon</div>;
-const SubmitSection = () => <div className="p-20 text-center text-muted-foreground">Submit Section Coming Soon</div>;
-const ReadmeGenerator = () => <div className="p-20 text-center text-muted-foreground">README Generator Coming Soon</div>;
-const AIEditorIntro = () => <div className="p-20 text-center text-muted-foreground">AI Editor Intro Coming Soon</div>;
-
-
-export default function App() {
+import Easteron App() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
