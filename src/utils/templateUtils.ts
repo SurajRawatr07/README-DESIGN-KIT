@@ -5,11 +5,7 @@ eturn elemen
   }
 
   /**
-   * Validate template structure
-   */
-  static validateTemplate(template: Template): { isValid: boolean; errors: string[] } {
-    const errors: string[] = [];
-
+   * V
     if (!template.id) errors.push('Template must have an ID');
     if (!template.name) errors.push('Template must have a name');
     if (!template.elements || template.elements.length === 0) {
