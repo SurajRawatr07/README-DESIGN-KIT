@@ -5,12 +5,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
   const getBadgeUrl = (tech: string, badgeStyle: string = ''): string => {
     // Get theme color based on theme setting
     let thtyle === 'simple-icons') {
-      // Simple Icons style - uses shields.io with logo parameter
-      return `https://img.shields.io/badge/${tech}-${themeColor}?style=flat&logo=${cleanTechName}`;
-    } 
-    else if (badgeStyle === 'for-the-badge-colored') {
-      return `https://img.shields.io/badge/${tech}-${themeColor}?style=for-the-badge&logoColor=white`;
-    }
+      // Sim
     else if (badgeStyle === 'flat-colored') {
       return `https://img.shields.io/badge/${tech}-${themeColor}?style=flat&logoColor=white`;
     }
