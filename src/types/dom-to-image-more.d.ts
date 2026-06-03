@@ -4,5 +4,4 @@ declare module 'dom-to-image-more' {
     bgcolor?: string;
     width?: numb\ber;
     imagePlaceholder?: string;
-    cob: (node: Node, options?: Options) => Promise<Blob>;
-    toPng: (node: Nod Node, options?: Options) => Promise<Uint8ClampedArray>;
+ toPng: (node: Nod Node, options?: Options) => Promise<Uint8ClampedArray>;
