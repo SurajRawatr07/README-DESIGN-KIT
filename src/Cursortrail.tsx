@@ -4,10 +4,6 @@ const DOT_COUNT = 8;
 
 functmouseY = useRef(0);
 nst 
-    const handleMouseMove = (e: MouseEvent) => {
-      mouseX.current = e.clientX;
-      mouseY.current = e.clientY;
-    };
 
     document.addEventListener("mousemove", handleMouseMove);
 
