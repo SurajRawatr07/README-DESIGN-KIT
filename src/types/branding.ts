@@ -3,12 +3,7 @@ export type BrandingTone = 'casual' | 'technical' | 'professional' | 'open-sourc
 export type BrandingFixType = 'grammar' | 'enhancement' | 'rewrite' | 'addition';
 
 export type SuggestionActionType = 'edit' | 'add' | 'remove' | 'reorder' | 'enhance';
-
-export interface SuggestionAction {
-  type: SuggestionActionType;
-  elementId?: string;
-  newContent?: string;
-  elementToAdd?: any; // ElementType but avoiding circular dependency
+dd?: any; // ElementType but avoiding circular dependency
   targetPosition?: number;
   direction?: 'up' | 'down';
 }
