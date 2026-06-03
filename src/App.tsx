@@ -5,13 +5,7 @@ import { useEffect, useState } from "react";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import ScrollRestoration from "./components/ScrollRestoration";
-import Easter } from "./components/ui/sonner";
-import ReadmeEditor from "./components/readme-editor/ReadmeEditor";
-import MarkdownEditor from "./pages/MarkdownEditor";
-import Cursortrail from "./Cursortrail";
-import { HistoryProvider } from "./contexts/HistoryContext";
-
-const queryClient = new QueryClient();
+import Easter } fw QueryClient();
 
 // Placeholder components for missing routes to prevent app crash
 const ProjectsSection = () => <div className="p-20 text-center text-muted-foreground">Projects Section Coming Soon</div>;
