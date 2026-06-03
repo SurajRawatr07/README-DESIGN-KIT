@@ -3,14 +3,7 @@ import type { ViewMode } from '@/types/view-mode';
 
 export interface BaseElement {
   id: string;
-  type: string;
-  cerface TitleElement extends BaseElement {
-  type: 'title';
-  content: string;
-}
-
-export interface HeaderElement extends BaseElement {
-  type: 'header';
+  type: strin';
   content: string;
   level: 1 | 2 | 3 | 4 | 5 | 6;
 }
