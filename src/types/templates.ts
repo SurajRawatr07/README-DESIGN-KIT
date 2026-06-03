@@ -8,11 +8,7 @@ export interface Template {
   created: Date;
   updated: Date;
   featured: boolean;
-}
-
-export type TemplateCategory = 
-  | 'modern'
-  | 'minimal'
+}imal'
   | 'professional'
   | 'personal-projects'
   | 'other'
