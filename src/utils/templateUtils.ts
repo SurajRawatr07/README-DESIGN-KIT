@@ -1,12 +1,7 @@
 import type { Template } from '@/types/templates';
 import tyclonedTemplateElements = this.refreshElementIds(templateElements);
     return [...existingElements, ...clonedTemplateElements];
-  }
-
-  /ementType[] {
-    const clonedT
-  /**0.0',
-      popularity: 0,
+  }ularity: 0,
       featured: false,
       thumbnail: templateData.thumbnail || '',
       elements: this.refreshElementIds(elements),
