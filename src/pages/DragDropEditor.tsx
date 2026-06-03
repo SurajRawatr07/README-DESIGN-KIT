@@ -1,12 +1,79 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-impoLwnMenuTrigger,
-} from der,
+import { Badge } from '@/components/ui/badge';
+import {
+  ArrowLeft,
+  PanelLeft,
+  PanelRight,
+  Sparkles,
+  ChevronDown,
+  Library,
+  Github,
+  Eye,
+} from 'lucide-react';a
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
 
-  huMobile = useIsMobile();
+import { ElementPalette } from '@/components/ElementPalette';
+import { EditorCanvas } from '@/components/EditorCanvas';
+import { ReadmePreview } from '@/components/ReadmePreview';
+import { ElementEditor } from '@/components/ElementEditor';
+import { SaveTemplateDialog } from '@/components/SaveTemplateDialog';
+import { GithubUsernameDialog } from '@/components/GithubUsernameDialog';
+import { ReadmeQualityDialog } from '@/components/ReadmeQualityDialog';
+import ScrollToTop from '@/components/ScrollToTop';
+import { useIsMobile } from '@/hooks/use-mobile';
+import { useHistory } from '@/contexts/HistoryContext';
+import { demoElements } from '@/data/demo';
+import { TemplateUtils } from '@/utils/templateUtils';
+import { analyzeReadmeQuality, type ReadmeQualityResult } from '@/utils/readmeQualityAnalyzer';
+import type { ElementType, GitContributionElement } from '@/types/elements';
+import type { Template } from '@/types/templates';
+import type { ReadmeExportPreset } from '@/config/readmeExportPresets';
+import { toast } from 'sonner';
+
+export default function DragDropEditor() {
+  const {
+    state: elements,
+    commit
+  } = useHistory();
+
+  // Helper to update elements with history tracking
+  const setElements = (newElements: ElementType[] | ((prev: ElementType[]) => ElementType[])) => {
+    if (typeof newElements === 'function') {
+      commit(newElements(elements));
+    } else {
+      commit(newElements);
+    }
+  };
+
+  const [editingElement, setEditingElement] = useState<ElementType | null>(null);
+  const [showPalette, setShowPalette] = useState(!useIsMobile());
+  const [showPreview, setShowPreview] = useState(!useIsMobile());
+  const [showPaletteSheet, setShowPaletteSheet] = useState(false);
+  const [loadedTemplateName, setLoadedTemplateName] = useState<string | null>(null);
+  const [backToTopVisible, setBackToTopVisible] = useState(false);
+  const [githubUsername, setGithubUsername] = useState<string>('your-username');
+  const [showGithubUsernameInput, setShowGithubUsernameInput] = useState(false);
+
+
+  const [exportPreset, setExportPreset] = useState<ReadmeExportPreset>('default');
+  const [isTablet, setIsTablet] = useState(false);
+  const [qualityResult, setQualityResult] = useState<ReadmeQualityResult | null>(null);
+  const [showQualityDialog, setShowQualityDialog] = useState(false);
+
+  const isMobile = useIsMobile();
   const location = useLocation();
 
 
