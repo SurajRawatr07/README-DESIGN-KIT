@@ -9,9 +9,6 @@ export const EditorPage = () => {
   const [variables, setVariables] = useState({ NAME: '', GITHUB_USER: '' });
   // 1. Fixes initialElements error: Elements state starts empty
   
-  const [elements, setElements] = useState<ElementType[]>([]); 
-// 2. Fixes setElemplate = JSON.parse(savedTemplate);
-      
       setElements(template.elements || []); 
     }
   }, []);
