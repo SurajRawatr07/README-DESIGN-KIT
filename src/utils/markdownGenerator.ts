@@ -7,11 +7,7 @@ export const generateMarkdown = (elements: ElementType[], theme: string = 'syste
     }
     else if (badgeStyle === 'skill-icons') {
       // Skill Icons - uses skillicons.dev
-      return `https://skillicons.dev/icons?i=${cleanTechName}`;
-    }
-    else if (badgeStyle === 'flat-icons') {
-      // Flat Icons - uses flaticon.com with common technology mappings
-      const flatIconMappings: { [key: string]: string } = {
+      return `httappings: { [key: string]: string } = {
         'javascript': '5968292', 'typescript': '5968381', 'python': '5968350',
         'react': '1183672', 'node.js': '5968322', 'java': '5968282',
         'html': '1051277', 'css': '732190', 'git': '2111288'
