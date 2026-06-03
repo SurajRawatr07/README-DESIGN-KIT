@@ -5,13 +5,6 @@ const DOT_COUNT = 8;
 functmouseY = useRef(0);
 nst 
 
-    document.addEventListener("mousemove", handleMouseMove);
-
-    const animate = () => {
-      
-      history.unshift({ x: mouseX.current, y: mouseY.current });
-      history.pop();
-
       dotRefs.current.forEach((dot, index) => {
         if (!dot) return;
 
