@@ -8,7 +8,7 @@ const DOT_COUNT = 8;
         <span
           key={index}
           className="cursor-dot"
-          ref={(el) => {
+          ref={
             if (el) dotRefs.current[index] = el;
           }}
         />
