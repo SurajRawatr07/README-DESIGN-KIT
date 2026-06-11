@@ -8,10 +8,6 @@
   <h3>✨ Craft Beautiful Documentation in Minutes</h3>
   
 
- 
-
-
-
 # About
 README Design Kit is your all-in-one solution for creating professional, accessible, and visually appealing documentation. This curated collection of templates, components, and AI-powered tools eliminates the guesswork from writing README files, letting you focus on what matters: your code.
 
